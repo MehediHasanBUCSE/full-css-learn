@@ -7,14 +7,15 @@ red => value
 # => id selector
 , => group selector
 */
-* {
+/* CSS Comment */
+/* * {
   margin: 0;
   color: chocolate;
   padding: 0;
 }
 h1 {
-  color: red; /* Declaration */
-  font-size: 60px;
+  /* color: red; /* Declaration */
+/*  font-size: 60px;
 }
 p {
   font-size: 18px;
@@ -28,7 +29,7 @@ div {
 
 div p {
   color: black; /*Nasted way*/
-}
+/* }
 .text-bk {
   color: rebeccapurple;
   text-align: center;
@@ -38,7 +39,7 @@ div p {
 .box-div2 {
   background-color: brown;
   /* margin: 20px; */
-}
+/* }
 .box-div2 p {
   color: blanchedalmond;
 }
@@ -49,4 +50,44 @@ div p {
 #second-id,
 .box-div2 {
   width: 400px;
+} */
+
+/*-------------CSS COLOR-----------*/
+/* body {
+  background: url(nature.jpg);
 }
+h1 {
+  color: aqua;
+  color: #000000;
+  color: #0000ff;
+  color: #00ff00;
+  color: #ff0000;
+  color: #ffffff;
+  color: rgb(81, 144, 158);
+  color: rgba(255,255,0,0.3);
+} */
+/*------CSS BACKGROUND-------*/
+/* * {
+  margin: 0;
+}
+body {
+  background: url(nature.jpg);
+  background-attachment: fixed;
+}
+div { */
+  /* background-color: rgba(56, 82, 56, 0.7);
+  background-image: url(CSS3_logo.png);
+  background-size: 150px 150px; */
+  /* background-repeat: repeat-x;
+  background-repeat: repeat-y; */
+  /* background-repeat: no-repeat;
+  background-position: center; */
+
+  /* Shorthand */
+  /* background: #f78fb3 url(CSS3_logo.png) 150px no-repeat center;
+}
+p,
+h1 {
+  color: antiquewhite;
+} */
+/* <!--CSS BORDER--> */
