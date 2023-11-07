@@ -1,7 +1,11 @@
 /*
- h1 = Selector
-color = property
-red = value 
+ h1 => Selector
+color => property
+red => value 
+* => universal selector
+. => Class selector
+# => id selector
+, => group selector
 */
 * {
   margin: 0;
