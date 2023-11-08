@@ -1,0 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.parent {
+  background: rgb(117, 69, 161);
+  color: aliceblue;
+  width: 700px;
+}
