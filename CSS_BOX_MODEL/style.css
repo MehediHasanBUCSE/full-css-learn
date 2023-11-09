@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  height: 50%;
+}
+body {
+  height: inherit;
+}
+/* .parent-content {
+  color: antiquewhite;
+  background: rgb(234, 48, 79);
+  width: 300px;
+  margin: 10px;
+  padding: 20px;
+  border: 10px solid rgb(90, 29, 29);
+  float: left;
+} */
+.parent-content {
+  color: rgb(194, 245, 245);
+  background: rgb(11, 67, 52);
+  width: 24.5%;
+  margin: 2%;
+  padding: 1%;
+  border: 0.5em solid rgb(41, 66, 0);
+  float: left;
+}
