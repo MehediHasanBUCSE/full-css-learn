@@ -5,5 +5,11 @@
 .parent {
   background: rgb(117, 69, 161);
   color: aliceblue;
-  width: 700px;
+  width: 92%;
+  padding: 2%;
+  margin: 20px auto;
+  /* max-width: 1140px; */
+  /* min-width: 600px; */
+
+  height: 300px;
 }
