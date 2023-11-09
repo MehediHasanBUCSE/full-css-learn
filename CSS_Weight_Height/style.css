@@ -2,14 +2,25 @@
   margin: 0;
   padding: 0;
 }
+/* html,
+body {
+  height: 100%;
+} */
+html {
+  height: 50%;
+}
+body {
+  height: inherit; /*inherit mean parent height is now his height .prent=>body=>html child to parent*/
+}
 .parent {
   background: rgb(117, 69, 161);
-  color: aliceblue;
+  color: rgb(83, 107, 128);
   width: 92%;
   padding: 2%;
   margin: 20px auto;
   /* max-width: 1140px; */
   /* min-width: 600px; */
 
-  height: 300px;
+  height: inherit;
+  /* max-height: 180px; */
 }
