@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100;1,200;1,400;1,500;1,600&display=swap");
+h1 {
+  font-family: serif;
+  font-family: sans-serif;
+  font-family: monospace;
+  font-family: cursive;
+  font-family: fantasy;
+
+  /* serif */
+  font-family: "Times New Roman";
+  font-family: "Georgia", serif;
+
+  /* sans-serif */
+  font-size: "Arial", sans-serif;
+  font-size: vendana;
+  /* Monospace */
+  font-family: "Courier New", Courier, monospace;
+  letter-spacing: -4px;
+  word-spacing: 6px;
+  /* Fantacy Font */
+  font-family: papyrus;
+  /* Cursive Font */
+  font-size: "Brush Script MT", Cursive;
+}
+h2 {
+  font-family: "Popping", sans-serif;
+  font-size: 50px;
+  font-size: 3.125em;
+  /* font-size: 100%; */
+
+  font-style: oblique;
+  /* font-style: italic; */
+  /* font-style: normal; */
+
+  font-weight: lighter;
+  /* font-weight: 100; */
+  /* font-weight: 900; */
+}
+h3 {
+  font-family: "Bungee Spice", cursive;
+  font-size: 3em;
+  font-weight: 400;
+}
+h4 {
+  font-size: 3.5em;
+  font-variant: small-caps;
+}
+/* h5 {
+   font-size: 115.8em;/* wrong way */
+/*} */
