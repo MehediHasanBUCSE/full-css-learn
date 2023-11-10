@@ -42,3 +42,33 @@ p {
 .sub {
   vertical-align: sub;
 }
+a {
+  /* text-decoration: none;
+  text-decoration: overline;
+  text-decoration: line-through;
+  text-decoration: underline; */
+  text-decoration: overline underline line-through;
+}
+h2 {
+  text-transform: capitalize;
+  /* text-transform: uppercase;
+  text-transform: lowercase; */
+  letter-spacing: -1px;
+}
+p {
+  text-indent: 100px;
+  font-size: 20px;
+  line-height: 20px;
+}
+.header {
+  font-size: 30px;
+  text-shadow: 1px 1px 10px goldenrod;
+}
+.text-design {
+  font-size: 25px;
+  text-indent: 150px;
+  letter-spacing: -1px;
+  word-spacing: 3px;
+  line-height: 22px;
+  /* white-space: break-spaces; */
+}
