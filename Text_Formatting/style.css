@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  color: antiquewhite;
+  background: grey;
+  text-align: center;
+}
+p {
+  margin-bottom: 20px;
+}
+/* Text Align Last */
+.para-one {
+  text-align: center;
+  text-align-last: left;
+}
+/* Text Align  */
+.para-two {
+  text-align: center;
+  margin-top: 20px;
+}
+/* Direction */
+.para-three {
+  direction: rtl;
+  unicode-bidi: isolate-override;
+}
+/* Vartical Align */
+.baseline {
+  vertical-align: baseline;
+}
+.text_top {
+  vertical-align: text-top;
+}
+.text_bottom {
+  vertical-align: bottom;
+}
+
+.sup {
+  vertical-align: super;
+}
+.sub {
+  vertical-align: sub;
+}
