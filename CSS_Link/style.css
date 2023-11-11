@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  font-size: 35px;
+  color: black;
+  text-decoration: line-through;
+  text-decoration: underline;
+  text-decoration: overline;
+  text-decoration: none;
+}
+
+a:visited {
+  color: brown;
+}
+a:hover {
+  color: yellowgreen;
+}
+a:active {
+  color: aqua;
+  font-size: 35px;
+  font-weight: bold;
+}
+a:focus {
+  color: blueviolet;
+  font-size: 26px;
+  background: #000000;
+  padding: 10px;
+}
+a.btn {
+  background: red;
+  color: #000000;
+  padding: 15px 25px;
+  border: 2px solid brown;
+  display: inline-block;
+  font-family: sans-serif;
+  border-radius: 35px;
+}
+a.btn:hover {
+  background: rgba(255, 0, 0, 0.2);
+  color: #000;
+}
