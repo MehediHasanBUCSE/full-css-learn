@@ -28,6 +28,7 @@ div {
   /* left: 10px; */
   /* bottom: 10px; */
   position: fixed;
+  z-index: 1;
   border: 5px solid rgb(153, 134, 107);
   border-radius: 55px;
   background-image: url(CSS3_logo.png);

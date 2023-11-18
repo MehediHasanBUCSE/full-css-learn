@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      #practice {
+        background-image: url(bg2.jpg);
+        background-size: cover;
+        padding: 200px 20px;
+        text-align: center;
+        font-family: "Courier New", Courier, monospace;
+        position: relative;
+        z-index: 9;
+      }
+      #practice h2 {
+        color: rgb(228, 45, 29);
+        font-size: 35px;
+        margin-bottom: 0;
+      }
+      #practice p {
+        color: rgb(227, 11, 11);
+        font-size: 15px;
+        margin-bottom: 15px;
+      }
+      #practice .btn {
+        background: brown;
+        color: white;
+        font-size: 14px;
+        padding: 12px 30px;
+        font-family: sans-serif;
+        text-decoration: none;
+        border-radius: 10px;
+        display: inline-block;
+      }
+      #practice .btn:hover {
+        background: blueviolet;
+      }
+      .background {
+        position: absolute;
+        background: black;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        opacity: 0.4;
+        z-index: -1;
+      }
+    </style>
+  </head>
+  <body>
+    <section id="practice">
+      <div class="background"></div>
+      <h2>Hello</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
+        blanditiis!
+      </p>
+      <a class="btn" href="">Click Me plz..</a>
+    </section>
+  </body>
+</html>
