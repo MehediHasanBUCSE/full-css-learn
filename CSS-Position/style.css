@@ -1,0 +1,58 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+body {
+  margin: 0;
+}
+div {
+  background: aqua;
+  height: 400px;
+  width: 400px;
+  margin: 0;
+  margin-bottom: 50px;
+  /* margin-top: 20px;
+  margin-left: 20px; */
+}
+.first-main {
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+.second-main {
+  background: rgb(99, 17, 99);
+  height: 60px;
+  width: 60px;
+  top: 10px;
+  right: 10px;
+  /* left: 10px; */
+  /* bottom: 10px; */
+  position: fixed;
+  border: 5px solid rgb(153, 134, 107);
+  border-radius: 55px;
+  background-image: url(CSS3_logo.png);
+}
+.child {
+  background: pink;
+  height: 50px;
+  width: 50px;
+  /* left: auto;
+  right: 0; */
+  /* right: 0;
+  bottom: 0; */
+  /* top: auto;
+  bottom: 0; */
+  left: 50%;
+  top: 50%;
+  margin-top: -25px;
+  margin-left: -25px;
+  position: absolute;
+}
+.sticky {
+  background: goldenrod;
+  width: 100%;
+  height: 100px;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
