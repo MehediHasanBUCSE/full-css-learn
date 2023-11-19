@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+div {
+  background: #2c3e50;
+  color: #16a085;
+  width: 90%;
+  padding: 15px 5%;
+  overflow: auto;
+  height: 200px;
+  overflow-x: auto;
+  overflow-y: scroll;
+}
+p {
+  width: 600px;
+}
