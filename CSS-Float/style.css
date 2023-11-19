@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.div {
+  background: #2c3e50;
+  color: #16a085;
+  padding: 20px 1%;
+  width: 30%;
+  margin-bottom: 20px;
+  /* overflow: hidden; */
+  float: left;
+  margin-right: 5px;
+}
+img {
+  float: inherit;
+  display: block;
+  margin: 0 auto;
+}
+.parent {
+  border: 5px solid red;
+  overflow: auto;
+  /* overflow: hidden; */
+}
+#nav-bar {
+  margin: 2px 0 15px 2px;
+  padding: 0;
+  list-style-position: inside;
+  list-style-type: none;
+  overflow: auto;
+  background: #2c3e50;
+}
+#nav-bar li {
+  float: left;
+}
+#nav-bar li a {
+  display: inline-block;
+  padding: 12px 15px;
+  color: white;
+  /* background: #34495e; */
+  text-decoration: none;
+}
+#nav-bar li a:hover {
+  background: orangered;
+}
+/* Smart way */
+#display {
+  background: #16a085;
+  margin: 2px 0 15px 2px;
+  padding: 0;
+  list-style-type: none;
+}
+#display li {
+  display: inline-block;
+}
+#display li a {
+  display: inline-block;
+  padding: 12px 15px;
+  color: white;
+  text-decoration: none;
+}
+#display li a:hover {
+  background: #d35400;
+}
