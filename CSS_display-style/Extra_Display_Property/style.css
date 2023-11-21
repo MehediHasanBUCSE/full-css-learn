@@ -1,0 +1,55 @@
+div {
+  border: 1px solid red;
+  padding: 20px;
+  width: 200px;
+  display: inline-block;
+}
+img {
+  height: 500px;
+  width: 500px;
+}
+.one {
+  background: orange;
+}
+.two {
+  background: blue;
+  display: none;
+}
+.three {
+  background: purple;
+}
+span {
+  background: red;
+  color: aliceblue;
+  display: inline;
+  height: 100px;
+  width: 100px;
+}
+ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+ul li a {
+  text-decoration: none;
+  background-color: lightgray;
+  padding: 15px;
+  color: black;
+  border-radius: 5px;
+}
+ul li a:hover {
+  background: red;
+}
+/* span,
+a,
+img {
+  display: block;
+} */
+/* 
+inline
+block
+content
+flex
+inline-block
+inline-flex
+inline-gred
+grid*/
