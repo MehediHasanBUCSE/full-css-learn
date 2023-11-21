@@ -1,0 +1,60 @@
+/*
+position all value:
+static
+fixed
+absolute
+relative
+
+top,left,right,bottom
+*/
+div {
+  border: 2px solid rebeccapurple;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.Container {
+  border-color: green;
+  margin-top: 50px;
+  position: relative;
+}
+.retative {
+  background-color: burlywood;
+  position: relative;
+  left: 20px;
+}
+.fixed {
+  background-color: lightblue;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  width: 300px;
+  z-index: 2;
+}
+.absolute {
+  background-color: red;
+  color: aliceblue;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 200px;
+}
+.sticky {
+  position: sticky;
+  top: 0;
+  background-color: blueviolet;
+  z-index: 1;
+}
+.sticky ul li {
+  display: inline-block;
+  list-style-type: none;
+}
+ul li a {
+  background-color: rgb(2, 79, 79);
+  color: aliceblue;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 5px;
+}
+ul li a:hover {
+  background-color: rgb(30, 75, 60);
+}
