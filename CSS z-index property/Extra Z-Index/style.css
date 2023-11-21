@@ -1,0 +1,19 @@
+div {
+  height: 250px;
+  width: 250px;
+}
+.div1 {
+  background-color: aqua;
+  position: absolute;
+  z-index: 3;
+}
+.div2 {
+  background-color: blueviolet;
+  position: absolute;
+  z-index: 2;
+}
+.div3 {
+  background-color: blue;
+  position: absolute;
+  z-index: 1;
+}
