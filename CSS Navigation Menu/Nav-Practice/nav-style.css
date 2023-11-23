@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+#main-navmenu {
+  background: #1b9cfc;
+}
+/* #main-navmenu ul {
+  text-align: center;
+  list-style-position: inside;
+  list-style-type: none;
+}
+#main-navmenu ul li {
+  display: inline-block;
+  position: relative;
+}
+#main-navmenu ul li a {
+  display: block;
+  color: aliceblue;
+  text-decoration: none;
+  padding: 12px 20px;
+}
+#main-navmenu ul li a:hover {
+  background: #fd7272;
+} */
+/* dropdown menu */
+/* #main-navmenu ul li ul {
+  position: absolute;
+  left: 0;
+  top: 48px;
+  background: #6d214f;
+  width: 200px;
+  display: none;
+}
+
+#main-navmenu ul li ul li {
+  display: block;
+}
+#main-navmenu ul li:hover ul {
+  background: #fd7272;
+  display: block;
+}
+#main-navmenu ul li:hover a {
+  background: #fd7272;
+}
+#main-navmenu ul li:hover li a {
+  background: #6d214f;
+}
+
+#main-navmenu ul li ul li a:hover {
+  background: #d6a2e8;
+} */
+#main-navmenu ul {
+  text-align: center;
+  list-style-position: inside;
+  list-style-type: none;
+}
+#main-navmenu ul li {
+  display: inline-block;
+  position: relative;
+}
+#main-navmenu ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 12px 15px;
+  color: white;
+}
+#main-navmenu ul li a:hover {
+  background: #f97f51;
+}
+
+/* ------------- */
+#main-navmenu ul li ul {
+  position: absolute;
+  left: 0;
+  top: 48px;
+  background: #82589f;
+  width: 200px;
+  display: none;
+}
+#main-navmenu ul li ul li {
+  display: block;
+}
+#main-navmenu ul li:hover ul {
+  display: block;
+}
+#main-navmenu ul li:hover a {
+  background: #f97f51;
+}
+#main-navmenu ul li:hover ul li a {
+  background: none;
+}
+
+#main-navmenu ul li ul li a:hover {
+  background: #d6a2e8;
+}
+
