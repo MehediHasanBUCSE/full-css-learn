@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+a[target] {
+  color: #6ab04c;
+  text-decoration: none;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 20px;
+  /* sob target attribute select */
+}
+a[target="_self"] {
+  color: blueviolet;
+  font-weight: lighter;
+  font-size: 55px;
+  /*sob target attrabute a _self value k select */
+}
+a[title~="Pro"] {
+  color: #f6e58d;
+  font-weight: bold;
+  font-size: 45px;
+  text-decoration: none;
+  /* sob koita pro title attribute select */
+}
+a[title~="BD"] {
+  color: #130f40;
+  font-size: 30px;
+  /* only BD  title attribute select */
+}
+div[class|="child"] {
+  color: #535c68;
+  background-color: #130f40;
+  height: 300px;
+  width: 200px;
+  margin-bottom: 5px;
+  /*only div name class "-" select korse  */
+}
+
+div[class^="child"] {
+  color: rgb(221, 19, 19);
+  background-color: aqua;
+  height: 200px;
+  width: 300px;
+  margin-bottom: 5px;
+  /* child name attribute thaklei select hobe */
+}
+div[class$="ial"] {
+  background-color: #130f40;
+  /* class attribute name er last j koita icca letter select kore  */
+}
+div[class*="erv"] {
+  background-color: #535c68;
+  /* class attribute er j kono jaiga tgeka j koita icca letter select kore select */
+}
