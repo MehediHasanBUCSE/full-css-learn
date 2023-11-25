@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.parent {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.child {
+  background-color: #b33939;
+  width: 50px;
+  height: 38px;
+  padding-top: 10px;
+  margin-right: 10px;
+  text-align: center;
+  border-radius: 5px;
+  float: left;
+}
+.child p {
+  padding: 0;
+  margin: 0;
+  color: aliceblue;
+}
+
+/* nth Child */
+/* .child:first-child {
+  background-color: #706fd3;
+}
+.child:last-child {
+  background-color: #227093;
+}
+.child:nth-child(4) {
+  background-color: #cc8e35;
+}
+.child:nth-last-child(3) {
+  background-color: purple;
+} */
+/* .child:nth-child(odd) {
+  background-color: purple;
+}
+.child:nth-child(even) {
+  background-color: plum;
+} */
+.child:nth-child(3n) {
+  background-color: purple;
+}
+/* .child:nth-child(3n + 3) {
+  background-color: purple;
+
+  ******example:=>(xn+1)====xn(koite pore pore select hobe r tar man hobe x er maner 1 kom)+X(koto number select hobe)*****
+} */
+/* .child:nth-child(3n - 3) {
+  background-color: purple;
+  ****(xn+1)====xn(koite pore pore select hobe r tar man hobe x er maner 1 kom)+X(koto number select hobe)<=:example   (+ er oposite hiseb kora lagbe)****
+} */
+/* without text in the text box search button cannot show */
+form {
+  margin: 25px auto;
+  margin-left: 25px;
+}
+input[type="text"] {
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+  padding: 15px 25px;
+  font-size: 15px;
+  background-color: #474787;
+  color: white;
+  float: left;
+}
+input[type="button"] {
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+  padding: 15px 25px;
+  font-size: 15px;
+  background-color: #474787;
+  color: white;
+  cursor: pointer;
+  display: none;
+  transition: 0.1s;
+}
+input:not(:placeholder-shown) + input[type="button"] {
+  display: block;
+}
