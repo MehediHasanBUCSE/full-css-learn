@@ -1,0 +1,38 @@
+*,
+*::after,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.test {
+  width: 350px;
+  height: 400px;
+  margin-bottom: 15px;
+  color: aliceblue;
+}
+#one {
+  background-color: blue;
+  padding: 50px;
+  border: 10px solid yellow;
+  box-sizing: content-box;
+}
+#two {
+  background-color: purple;
+  padding: 50px;
+  border: 10px solid yellow;
+}
+/* .learning {
+  box-sizing: border-box;
+} */
+.child {
+  background-color: #227093;
+  padding: 10px 8px;
+  border: 5px solid yellow;
+  width: 31%;
+  float: left;
+  margin: 0 1% 0 1%;
+}
