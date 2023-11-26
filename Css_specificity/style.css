@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.para {
+  color: brown;
+}
+
+#test p {
+  color: palegreen !important;
+}
+#test .child p {
+  color: blue;
+}
