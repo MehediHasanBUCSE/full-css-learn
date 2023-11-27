@@ -1,0 +1,50 @@
+*,
+*::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.one {
+  background-color: palegreen;
+  height: 200px;
+  width: 200px;
+  border: 1px solid green;
+  margin: 20px 0px 20px 25px;
+  /* margin-left: 20px; */
+  /* transition: width 0.5s, height 3s, border 5s; */
+  transition: 4s;
+  /* transition-timing-function: ease; */
+  transition-timing-function: ease-in;
+  /* transition-timing-function: ease-out; */
+  /* transition-timing-function: ease-in-out; */
+}
+.one:hover {
+  border: 5px solid rebeccapurple;
+  width: 400px;
+  height: 350px;
+}
+a {
+  text-decoration: none;
+  font-size: 20px;
+  color: yellowgreen;
+  margin-left: 50px;
+  background-color: brown;
+  padding: 10px 15px;
+  border: 1px solid red;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: font-size 0.5s,border 2s;
+}
+a:hover {
+  font-weight: bold;
+  font-size: 25px;
+  background: red;
+  color: aliceblue;
+  border: 5px solid brown;
+  border-radius: 15px;
+  margin: o auto;
+}
