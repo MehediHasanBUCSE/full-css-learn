@@ -64,9 +64,9 @@ body {
   width: 500px;
   height: 500px;
   background-color: #20b710;
-  margin: 40px;
   border-radius: 50px;
   position: relative;
+  opacity: 0.3;
 }
 .two {
   width: 100px;

@@ -1,0 +1,60 @@
+:root {
+  --full_bgc: #30336b;
+  --H2_bgc: #686de0;
+  --main_area: #686de0;
+  --text_clrONE: #fff;
+  --text_clrTWO: #000;
+  --default-width: 80%;
+  --btn-clr: #535c68;
+  --btn-clr2: #fff;
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--full_bgc);
+}
+.main_area {
+  width: var(--default-width);
+  margin: 20px auto;
+}
+.main_area h2 {
+  text-align: center;
+  padding: 20px;
+  background: var(--H2_bgc);
+  color: var(--text_clrTWO);
+  margin-bottom: 20px;
+}
+.main_area .child {
+  background-color: var(--main_area);
+  padding: 20px;
+  color: var(--text_clrONE);
+  margin-bottom: 20px;
+  width: 100%;
+}
+.main_area .child a {
+  padding: 10px 20px;
+  background-color: var(--btn-clr);
+  color: var(--text_clrTWO);
+  border: 2px solid var(--btn-clr);
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 16px;
+}
+.main_area .child h3,
+p {
+  margin-bottom: 15px;
+}
+.main_area .child a:hover {
+  background-color: var(--btn-clr2);
+  border: 2px solid var(--btn-clr2);
+  border-radius: 5px;
+  color: var(--btn-clr);
+}
