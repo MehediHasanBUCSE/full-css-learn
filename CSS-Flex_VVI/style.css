@@ -1,0 +1,98 @@
+:root {
+  --paren_bgc: #f0932b;
+  --child_bgc: #ffbe76;
+  --text_clr: #000;
+  --btn1_clr: #535c68;
+  --btn2_clr: #badc58;
+  --btn1-text: #dff9fb;
+  --btn2_text: #30336b;
+  --global_width: 80%;
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background: var(--paren_bgc);
+}
+.parent {
+  width: var(--global_width);
+  margin: 20px auto;
+  background-color: #000;
+  padding: 10px;
+}
+.parent .title {
+  background: var(--child_bgc);
+  color: var(--text_clr);
+  margin-bottom: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.main_child {
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  /* flex-flow: column-reverse; */
+  justify-content: space-between;
+  /* 
+  flex-start
+  flex-end
+  space-around
+  space-between
+  space-evenly   
+*/
+}
+.parent .child {
+  background-color: var(--child_bgc);
+  color: var(--text_clr);
+  padding: 20px;
+  margin: 1%;
+  flex-basis: 28%;
+}
+.parent .child h3,
+p {
+  margin-bottom: 20px;
+}
+.parent .child a {
+  text-decoration: none;
+  padding: 10px 20px;
+  background: var(--btn1_clr);
+  color: var(--btn1-text);
+  border: 2px solid var(--btn1_clr);
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 15px;
+  display: inline-block;
+}
+.parent .child a:hover {
+  background-color: var(--btn2_clr);
+  border: 2px solid var(--btn2_clr);
+  color: var(--btn2_text);
+}
+.extra {
+  margin-bottom: 25px;
+  height: 300px;
+  background-color: var(--btn1-text);
+  align-items: baseline;
+  /* flex-start,flex-stretch,flex-end,center,baseline */
+}
+.extra p {
+  margin: 0px;
+}
+.extra3 {
+  align-content: space-evenly;
+  /* align-content: space-between; */
+}
+.extra4 {
+  align-content: center;
+  justify-content: center;
+}
+.extra3 .child {
+  height: 50px;
+  width: 50px;
+  background-color: var(--btn2_clr);
+}
