@@ -1,0 +1,52 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #7f8c8d;
+  height: 100vh;
+  margin: 10px;
+}
+.container .child {
+  display: flex;
+  color: #ffeead;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+}
+.container .child:nth-child(1n) {
+  background-color: #27ae60;
+}
+.container .child:nth-child(2n) {
+  background-color: #2980b9;
+}
+.container .child:nth-child(3n) {
+  background-color: #e67e22;
+}
+.container .child:nth-child(4n) {
+  background-color: #8e44ad;
+}
+/* -------layout--------- */
+.container > div {
+  display: flex;
+  color: #ffeead;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+}
+.container > div:nth-child(1n) {
+  background-color: #27ae60;
+}
+.container > div:nth-child(2n) {
+  background-color: #2980b9;
+}
+.container > div:nth-child(3n) {
+  background-color: #e67e22;
+}
+.container > div:nth-child(4n) {
+  background-color: #8e44ad;
+}
